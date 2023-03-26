@@ -1,4 +1,4 @@
-package io.slayer;
+package io.slayer.stepdefs;
 
 import cucumber.api.java.ru.Дано;
 import cucumber.api.java.ru.Когда;
