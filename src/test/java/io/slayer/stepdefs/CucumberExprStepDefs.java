@@ -36,6 +36,4 @@ public class CucumberExprStepDefs {
     public void передадим_в_метод_шага_слово(String string) {
         System.out.println("Слово: " + string);
     }
-
-
 }
