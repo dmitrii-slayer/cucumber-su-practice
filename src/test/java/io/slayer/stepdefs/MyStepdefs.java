@@ -1,6 +1,7 @@
 package io.slayer.stepdefs;
 
 import cucumber.api.java.ru.Дано;
+import cucumber.api.java.ru.Допустим;
 import cucumber.api.java.ru.Когда;
 import org.junit.Assert;
 
@@ -18,5 +19,10 @@ public class MyStepdefs {
     @Когда("пользователь снимает со счета {int} рублей")
     public void userWithdrawsThisAmountOfMoney(int money) {
         cash = cash.subtract(new BigDecimal(money));
+    }
+
+    @Допустим("выведется на консоль стихотворение")
+    public void printPoem(String poem) {
+        System.out.println(poem);
     }
 }
