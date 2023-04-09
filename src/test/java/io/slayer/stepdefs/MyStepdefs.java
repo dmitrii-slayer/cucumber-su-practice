@@ -25,4 +25,10 @@ public class MyStepdefs {
     public void printPoem(String poem) {
         System.out.println(poem);
     }
+
+    @Допустим("{int} умножаем на {int} получаем {int}")
+    public void multiply(int x, int y, int z) {
+        System.out.println(x + " * " + y + " = " + z);
+        Assert.assertEquals(z, x * y);
+    }
 }
