@@ -31,4 +31,9 @@ public class MyStepdefs {
         System.out.println(x + " * " + y + " = " + z);
         Assert.assertEquals(z, x * y);
     }
+
+    @Дано("пользователь успешно авторизовался")
+    public void successfulLogin() {
+        System.out.println("Пользователь авторизован");
+    }
 }
